@@ -12,7 +12,7 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <default revision="refs/heads/cm-10.1"
+  <default revision="refs/tags/cm-10.1.1"
            remote="github"
            sync-c="true"
            sync-j="4" />
@@ -81,7 +81,6 @@
   <project path="external/embunit" name="CyanogenMod/android_external_embunit" />
   <project path="external/emma" name="CyanogenMod/android_external_emma" />
   <project path="external/esd" name="CyanogenMod/android_external_esd" />
-  <project path="external/exfat" name="CyanogenMod/android_external_exfat" />
   <project path="external/expat" name="CyanogenMod/android_external_expat" />
   <project path="external/eyes-free" name="CyanogenMod/android_external_eyes-free" />
   <project path="external/fat32lib" name="CyanogenMod/android_external_fat32lib" />
@@ -89,15 +88,12 @@
   <project path="external/flac" name="CyanogenMod/android_external_flac" />
   <project path="external/freetype" name="CyanogenMod/android_external_freetype" />
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" />
-  <project path="external/fuse" name="CyanogenMod/android_external_fuse" />
   <project path="external/ganymed-ssh2" name="CyanogenMod/android_external_ganymed-ssh2" />
   <project path="external/gcc-demangle" name="CyanogenMod/android_external_gcc-demangle" />
   <project path="external/genext2fs" name="CyanogenMod/android_external_genext2fs" />
   <project path="external/giflib" name="CyanogenMod/android_external_giflib" />
-  <project path="external/google" name="CyanogenMod/android_external_google" />
   <project path="external/google-diff-match-patch" name="CyanogenMod/android_external_google-diff-match-patch" />
   <project path="external/grub" name="CyanogenMod/android_external_grub" />
-  <project path="external/gson" name="CyanogenMod/android_external_gson" />
   <project path="external/gtest" name="CyanogenMod/android_external_gtest" />
   <project path="external/guava" name="CyanogenMod/android_external_guava" />
   <project path="external/hamcrest" name="CyanogenMod/android_external_hamcrest" />
@@ -121,8 +117,6 @@
   <project path="external/jsr305" name="CyanogenMod/android_external_jsr305" />
   <project path="external/junit" name="CyanogenMod/android_external_junit" />
   <project path="external/kernel-headers" name="CyanogenMod/android_external_kernel-headers" />
-  <project path="external/koush/ion" name="CyanogenMod/ion" />
-  <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" />
   <project path="external/koush/Superuser" name="CyanogenMod/Superuser" />
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" />
   <project path="external/libcap-ng" name="CyanogenMod/android_external_libcap-ng" />
@@ -167,7 +161,6 @@
   <project path="external/netperf" name="CyanogenMod/android_external_netperf" />
   <project path="external/neven" name="CyanogenMod/android_external_neven" />
   <project path="external/nist-sip" name="CyanogenMod/android_external_nist-sip" />
-  <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" />
   <project path="external/oauth" name="CyanogenMod/android_external_oauth" />
   <project path="external/okhttp" name="CyanogenMod/android_external_okhttp" />
   <project path="external/opencv" name="CyanogenMod/android_external_opencv" />
@@ -195,7 +188,6 @@
   <project path="external/smali" name="CyanogenMod/android_external_smali" />
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" />
   <project path="external/speex" name="CyanogenMod/android_external_speex" />
-  <project path="external/spongycastle" name="CyanogenMod/android_external_spongycastle" />
   <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" />
   <project path="external/srec" name="CyanogenMod/android_external_srec" />
   <project path="external/srtp" name="CyanogenMod/android_external_srtp" />
@@ -263,7 +255,6 @@
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
-  <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" />
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" />
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" />
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" />
@@ -287,7 +278,6 @@
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
-  <project path="packages/apps/CMAccount" name="CyanogenMod/android_packages_apps_CMAccount" />
   <project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" />
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
@@ -322,7 +312,6 @@
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
   <project path="packages/apps/VideoEditor" name="CyanogenMod/android_packages_apps_VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
-  <project path="packages/apps/VoicePlus" name="CyanogenMod/android_packages_apps_VoicePlus" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
   <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" />
   <project path="packages/inputmethods/OpenWnn" name="CyanogenMod/android_packages_inputmethods_OpenWnn" />
@@ -386,5 +375,4 @@
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
-  <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
 </manifest>
